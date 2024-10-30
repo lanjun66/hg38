@@ -1,0 +1,61 @@
+track MicrosatellitesDensityLandscape
+html Density.html
+bigDataUrl hg38Landscape.bw
+shortLabel Landscape of STR Density
+longLabel pD1RD of Microsatellite (6,3,3,3,3,3)
+type bigWig
+color 255,0,0
+altColor 0,100,200
+visibility full
+priority 1
+
+track MicrosatelliteDensityPeaks
+html MicrosatelliteDensityPeaks.html
+compositeTrack on
+shortLabel Microsatellite Density Peaks
+longLabel MicrosatelliteDensityPeaks
+visibility dense
+type bigBed 9 +
+noInherit on
+group annotation
+priority 2
+
+ track HMDP
+ html HMDP.html
+ parent MicrosatelliteDensityPeaks
+ bigDataUrl hg38HMDP.bb
+ shortLabel HMDP
+ type bigBed 9 +
+ visibility dense
+ priority 3
+ spectrum on
+
+ track MMDP
+ html MMDP.html
+ parent MicrosatelliteDensityPeaks
+ bigDataUrl hg38MMDP.bb
+ shortLabel MMDP
+ type bigBed 9 +
+ visibility dense
+ priority 4
+ spectrum on
+ 
+ track LMDP
+ html LMDP.html
+ parent MicrosatelliteDensityPeaks
+ bigDataUrl hg38LMDP.bb
+ shortLabel LMDP
+ type bigBed 9 +
+ visibility dense
+ priority 5
+ spectrum on
+
+ track Gap
+ html Gap.html
+ parent MicrosatelliteDensityPeaks
+ bigDataUrl hg38GAP.bb
+ shortLabel Gap
+ type bigBed 9 +
+ visibility pack
+ priority 6
+ spectrum on
