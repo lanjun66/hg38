@@ -13,6 +13,7 @@ track MicrosatelliteDensityPeaks
 html MicrosatelliteDensityPeaks.html
 compositeTrack on
 shortLabel Microsatellite Density Peaks
+longLabel MicrosatelliteDensityPeaks
 visibility dense
 type bigBed 9
 noInherit on
