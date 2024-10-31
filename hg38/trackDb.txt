@@ -24,6 +24,7 @@ priority 2
  parent MicrosatelliteDensityPeaks
  bigDataUrl hg38HMDP.bb
  shortLabel HMDP
+ longLabel High Microsatellite Density Peaks
  type bigBed 9
  visibility dense
  priority 3
@@ -34,6 +35,7 @@ priority 2
  parent MicrosatelliteDensityPeaks
  bigDataUrl hg38MMDP.bb
  shortLabel MMDP
+ longLabel Middle Microsatellite Density Peaks
  type bigBed 9
  visibility dense
  priority 4
@@ -44,6 +46,7 @@ priority 2
  parent MicrosatelliteDensityPeaks
  bigDataUrl hg38LMDP.bb
  shortLabel LMDP
+ longLabel Low Microsatellite Density Peaks
  type bigBed 9
  visibility dense
  priority 5
@@ -54,6 +57,7 @@ priority 2
  parent MicrosatelliteDensityPeaks
  bigDataUrl hg38GAP.bb
  shortLabel Gap
+ longLabel Gap
  type bigBed 9
  visibility pack
  priority 6
