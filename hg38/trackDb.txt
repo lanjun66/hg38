@@ -4,8 +4,8 @@ bigDataUrl hg38Landscape.bw
 shortLabel Landscape of STR Density
 longLabel pD1RD of Microsatellite (6,3,3,3,3,3)
 type bigWig
+autoScale on
 color 255,0,0
-altColor 0,100,200
 visibility full
 priority 1
 
@@ -13,11 +13,9 @@ track MicrosatelliteDensityPeaks
 html MicrosatelliteDensityPeaks.html
 compositeTrack on
 shortLabel Microsatellite Density Peaks
-longLabel MicrosatelliteDensityPeaks
 visibility dense
 type bigBed 9
 noInherit on
-group annotation
 priority 2
 
  track HMDP
